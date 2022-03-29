@@ -11,37 +11,38 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
 
     <!-- navbar -->
-    <nav class="navbar flex-column navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <nav class="navbar flex-column nav-custom navbar-expand-lg fixed-top">
 
-      <div class="container-fluid px-5">
-        <ul class="list-inline text-light">
-          <li class="list-inline-item">Phone</li>
-          <li class="list-inline-item">Location</li>
-          <li class="list-inline-item">Email</li>
+      <div class="container-fluid px-5 border-bottom border-white">
+        <ul class="d-flex flex-row list-inline text-light">
+          <li class="list-inline-item border-end border-white"><i class="bi bi-telephone-fill"></i><span class="px-2">+639(27)-1254-2421</span></li>
+          <li class="list-inline-item border-end border-white"><i class="bi bi-geo-alt-fill"></i><span class="px-2">Nakasuyop St. Makati</span></li>
+          <li class="list-inline-item"><i class="bi bi-envelope-fill"></i><span class="px-2">nakasuyop.dimahimutang@gmail.com</span></li>
         </ul>
       </div>
 
       <div class="container-fluid px-5">
-        <a class="navbar-brand" href="#">Logo</a>
+        <a class="navbar-brand text-white fw-bold" href="#">AGPlastics</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">HOME</a>
+              <a class="nav-link active text-white" aria-current="page" href="#">HOME</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">ABOUT</a>
+              <a class="nav-link text-white" href="#">ABOUT</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 PRODUCTS
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -52,10 +53,10 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link">NEWS</a>
+              <a class="nav-link text-white">NEWS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link">CONTACT US</a>
+              <a class="nav-link text-white">CONTACT US</a>
             </li>
           </ul>
         </div>
@@ -64,20 +65,27 @@
     </nav>
 
     <!-- hero bar -->
-    <div class="container-fluid hero d-flex align-items-center justify-content-center">
-      <h1>Hero</h1>
-    </div>
+    <!-- <div class="container-fluid hero d-flex align-items-center justify-content-center"> -->
+      <img src="assets/cover.jpeg" class="w-100 hero d-flex align-items-center justify-content-center">
+    <!-- </div> -->
 
     
 
     
     <!-- projects and recent news -->
-    <div class="projects-news container-fluid d-flex justify-content-center p-0">
-      <div class="container-fluid border p-0">
-        Projects
+    <div class="projects-news container-fluid d-flex justify-content-center p-0 bg-white">
+      <div class="container-fluid border p-3">
+        <h2 class="fw-bold">PROJECTS</h1>
+        <p>AGPlastics Company have initiated, lead, and developed numerous projects. Found below are previews of some.</p>
+        <img src="assets/project-image.jpeg" class="img-fluid">
+        <div class="row py-3">
+          <div class="col-lg"><img src="assets/project-image.jpeg" class="img-fluid"></div>
+          <div class="col-lg"><img src="assets/project-image.jpeg" class="img-fluid"></div>
+          <div class="col-lg"><img src="assets/project-image.jpeg" class="img-fluid"></div>
+        </div>
       </div>
-      <div class="container-fluid border p-0">
-        Recent News
+      <div class="container-fluid border p-3">
+        <h2 class="fw-bold">RECENT NEWS</h1>
       </div>
     </div>
 
