@@ -24,6 +24,10 @@
     background: lightgray;
 }
 
+.header-content {
+    margin-top: 1rem;
+}
+
 .about-section-item{
     margin-top:3rem;
 }
