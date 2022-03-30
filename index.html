@@ -20,77 +20,23 @@
   </head>
   <body>
     <!-- navbar -->
-    <nav class="navbar flex-column nav-custom navbar-expand-lg fixed-top">
-      <div class="container-fluid px-5 border-bottom border-white">
-        <ul class="d-flex flex-row list-inline text-light">
-          <li class="list-inline-item border-end border-white">
-            <i class="bi bi-telephone-fill"></i
-            ><span class="px-2">+639(27)-1254-2421</span>
-          </li>
-          <li class="list-inline-item border-end border-white">
-            <i class="bi bi-geo-alt-fill"></i
-            ><span class="px-2">Nakasuyop St. Makati</span>
-          </li>
-          <li class="list-inline-item">
-            <i class="bi bi-envelope-fill"></i
-            ><span class="px-2">nakasuyop.dimahimutang@gmail.com</span>
-          </li>
-        </ul>
-      </div>
+    <div class="container-fluid px-5 d-flex align-items-center py-3 nav-custom">
+      <ul class="d-flex flex-row list-inline text-light mb-0">
+        <li class="list-inline-item border-end border-white">
+          <i class="bi bi-telephone-fill"></i
+          ><span class="px-2">+639(27)-1254-2421</span>
+        </li>
+        <li class="list-inline-item border-end border-white">
+          <i class="bi bi-geo-alt-fill"></i
+          ><span class="px-2">Nakasuyop St. Makati</span>
+        </li>
+        <li class="list-inline-item">
+          <i class="bi bi-envelope-fill"></i
+          ><span class="px-2">nakasuyop.dimahimutang@gmail.com</span>
+        </li>
+      </ul>
+    </div>
 
-      <div class="container-fluid px-5">
-        <a class="navbar-brand text-white fw-bold" href="#">AGPlastics</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active text-white" aria-current="page" href="#"
-                >HOME</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#">ABOUT</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle text-white"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                PRODUCTS
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white">NEWS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white">CONTACT US</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
 
     <!-- hero bar -->
     <!-- <div class="container-fluid hero d-flex align-items-center justify-content-center"> -->
@@ -99,6 +45,64 @@
       src="assets/cover.jpeg"
       class="w-100 hero d-flex align-items-center justify-content-center"
     />
+    <div class="nav-placeholder">
+      <nav id="stickybar" class="navbar navbar-dark flex-column nav-custom navbar-expand-lg">
+        <div class="container-fluid px-5">
+          <a class="navbar-brand text-white fw-bold" href="#">AGPlastics</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="#"
+                  >HOME</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">ABOUT</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-white"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  PRODUCTS
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white">NEWS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white">CONTACT US</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    </div>
+
     <!-- </div> -->
     <div
       class="container-fluid d-flex justify-content-center p-0 bg-white mt-3 border-bottom"
@@ -240,6 +244,9 @@
       </div>
     </div>
 
+
+    <!-- sticky navbar -->
+    <script src="js/app.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
