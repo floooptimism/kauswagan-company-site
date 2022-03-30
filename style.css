@@ -2,9 +2,12 @@
     background-color: #741E1E;
 }
 
+.nav-placeholder {
+    height:56px;
+}
+
 .hero {
     /* offset against navbar */
-    margin-top: 96px;
     object-fit: cover;
     object-position: top;
     height: 450px;
@@ -30,4 +33,8 @@
 
 .about-section-item{
     margin-top:3rem;
+}
+
+#stickybar {
+    transition: all ease-in 0.5s;
 }
