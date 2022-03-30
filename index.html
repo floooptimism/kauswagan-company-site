@@ -11,45 +11,74 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
 
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-
     <!-- navbar -->
     <nav class="navbar flex-column nav-custom navbar-expand-lg fixed-top">
-
       <div class="container-fluid px-5 border-bottom border-white">
         <ul class="d-flex flex-row list-inline text-light">
-          <li class="list-inline-item border-end border-white"><i class="bi bi-telephone-fill"></i><span class="px-2">+639(27)-1254-2421</span></li>
-          <li class="list-inline-item border-end border-white"><i class="bi bi-geo-alt-fill"></i><span class="px-2">Nakasuyop St. Makati</span></li>
-          <li class="list-inline-item"><i class="bi bi-envelope-fill"></i><span class="px-2">nakasuyop.dimahimutang@gmail.com</span></li>
+          <li class="list-inline-item border-end border-white">
+            <i class="bi bi-telephone-fill"></i
+            ><span class="px-2">+639(27)-1254-2421</span>
+          </li>
+          <li class="list-inline-item border-end border-white">
+            <i class="bi bi-geo-alt-fill"></i
+            ><span class="px-2">Nakasuyop St. Makati</span>
+          </li>
+          <li class="list-inline-item">
+            <i class="bi bi-envelope-fill"></i
+            ><span class="px-2">nakasuyop.dimahimutang@gmail.com</span>
+          </li>
         </ul>
       </div>
 
       <div class="container-fluid px-5">
         <a class="navbar-brand text-white fw-bold" href="#">AGPlastics</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active text-white" aria-current="page" href="#">HOME</a>
+              <a class="nav-link active text-white" aria-current="page" href="#"
+                >HOME</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link text-white" href="#">ABOUT</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a
+                class="nav-link dropdown-toggle text-white"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
                 PRODUCTS
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item" href="#">Action</a></li>
                 <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
               </ul>
             </li>
             <li class="nav-item">
@@ -61,41 +90,90 @@
           </ul>
         </div>
       </div>
-      
     </nav>
 
     <!-- hero bar -->
     <!-- <div class="container-fluid hero d-flex align-items-center justify-content-center"> -->
-      <img src="assets/cover.jpeg" class="w-100 hero d-flex align-items-center justify-content-center">
+    <img
+      id="cover-image"
+      src="assets/cover.jpeg"
+      class="w-100 hero d-flex align-items-center justify-content-center"
+    />
     <!-- </div> -->
-    <div class="container-fluid d-flex justify-content-center p-0 bg-white">
-    <div class="container-fluid">
-      <p class="header-content h1 fw-bold text-center">AGPlastics Manufacturing</p>
-      <p class="fw-400 text-center">
-        Quality Plastic, Quality Service.
-      </p>
+    <div
+      class="container-fluid d-flex justify-content-center p-0 bg-white mt-3 border-bottom"
+    >
+      <div class="container-fluid">
+        <p class="header-content h1 fw-bold text-center">
+          AGPlastics Manufacturing
+        </p>
+        <p class="fw-400 text-center">Quality Plastic, Quality Service.</p>
+      </div>
     </div>
-    </div>
-    
+
     <!-- projects and recent news -->
-    <div class="projects-news container-fluid d-flex justify-content-center p-0 bg-white">
-      <div class="container-fluid border p-3">
-        <h2 class="fw-bold">PROJECTS</h2>
-        <p>AGPlastics Company have initiated, lead, and developed numerous projects. Found below are previews of some.</p>
-        <img src="assets/project-image.jpeg" class="img-fluid">
+    <div
+      class="projects-news container-fluid d-flex justify-content-center p-0 mt-5 bg-white"
+    >
+      <div class="container-fluid p-3">
+        <h3 class="fw-bold">PROJECTS</h3>
+        <p>
+          AGPlastics Company have initiated, lead, and developed numerous
+          projects. Found below are previews of some.
+        </p>
+        <img src="./assets/project-image.jpeg" class="img-fluid" />
         <div class="row py-3">
-          <div class="col-lg"><img src="assets/project-image.jpeg" class="img-fluid"></div>
-          <div class="col-lg"><img src="assets/project-image.jpeg" class="img-fluid"></div>
-          <div class="col-lg"><img src="assets/project-image.jpeg" class="img-fluid"></div>
+          <div class="col-lg">
+            <img src="assets/project-image.jpeg" class="img-fluid" />
+          </div>
+          <div class="col-lg">
+            <img src="assets/project-image.jpeg" class="img-fluid" />
+          </div>
+          <div class="col-lg">
+            <img src="assets/project-image.jpeg" class="img-fluid" />
+          </div>
         </div>
       </div>
-      <div class="container-fluid border p-3">
-        <h2 class="fw-bold">RECENT NEWS</h1>
+
+      <div class="container-fluid p-3">
+        <h3 class="fw-bold">RECENT NEWS</h3>
+
+        <div class="border-bottom">
+          <!-- image big af -->
+          <img src="./assets/project-image.jpeg" class="img-fluid" />
+          <h5 class="fw-bold my-2 mb-3">
+            Lorem ipsum dolor sit amet, consectetur adipscing
+          </h5>
+        </div>
+
+        <div>
+          <!-- date  -->
+          <div class="border-bottom d-flex align-items-center py-3">
+            <svg
+              style="fill: #145da0"
+              class="me-2"
+              xmlns="http://www.w3.org/2000/svg"
+              width="35"
+              height="35"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9 11H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2zm2-7h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11z"
+              />
+            </svg>
+            <h6 class="my-0">March 5, 1222</h6>
+          </div>
+          <!-- some description with readmore func -->
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Pellentesque sed ligula a nunc pulvinar...
+            </p>
+          </div>
+          <!-- and a list of newwwws, navigatable by arrows -->
+        </div>
       </div>
     </div>
-
-
-
 
     <!-- company about section container-->
     <div class="container-fluid">
@@ -110,8 +188,8 @@
       <div class="about-section-item">
         <h2>About the Company</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Voluptatum, quisquam.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum,
+          quisquam.
         </p>
       </div>
 
@@ -119,8 +197,8 @@
       <div class="about-section-item">
         <h2>Text here</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Voluptatum, quisquam.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum,
+          quisquam.
         </p>
       </div>
 
@@ -128,27 +206,39 @@
       <div class="about-section-item">
         <h2>another text here</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Voluptatum, quisquam.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum,
+          quisquam.
         </p>
       </div>
 
       <div class="about-section-item">
         <h2 class="border-bottom">Location Map</h2>
-        <p class="d-flex align-items-center justify-content-center bg-dark text-light" style="height:500px">
-          MAP DATA
-        </p>
+        <div class="mapouter">
+          <div class="gmap_canvas">
+            <iframe
+              width="100%"
+              height="500"
+              id="gmap_canvas"
+              src="https://maps.google.com/maps?q=AGPlastics%20Manufacturing%20Corporation,%20Panabo,%20Davao%20del%20Norte,%20Philippines&t=&z=13&ie=UTF8&iwloc=&output=embed"
+              frameborder="0"
+              scrolling="no"
+              marginheight="0"
+              marginwidth="0"
+            >
+            </iframe>
+            
+            <style>
+              .gmap_canvas {
+                overflow: hidden;
+                background: none !important;
+                height: 100%;
+                width: 100%;
+              }
+            </style>
+          </div>
+        </div>
       </div>
-
-
     </div>
-
-
-
-
-
-
-
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
