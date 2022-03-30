@@ -35,6 +35,10 @@
     margin-top:3rem;
 }
 
+.about-section-item > p {
+    margin-top: 1rem;
+}
+
 #stickybar {
     transition: all ease-in 0.5s;
 }
