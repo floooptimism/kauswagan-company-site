@@ -46,7 +46,7 @@
       class="w-100 hero d-flex align-items-center justify-content-center"
     />
     <div class="nav-placeholder">
-      <nav id="stickybar" class="navbar navbar-dark flex-column nav-custom navbar-expand-lg">
+      <nav id="stickybar" class="navbar navbar-dark flex-column nav-custom nav-custom-2 navbar-expand-lg">
         <div class="container-fluid px-5">
           <a class="navbar-brand text-white fw-bold" href="#">AGPlastics</a>
           <button
@@ -64,11 +64,11 @@
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link active text-white text-decoration-underline" aria-current="page" href="#"
-                  >HOME</a
+                  >Home</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#">ABOUT</a>
+                <a class="nav-link text-white" href="#">About</a>
               </li>
               <li class="nav-item dropdown">
                 <a
@@ -79,7 +79,7 @@
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  PRODUCTS
+                  Products
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item" href="#">Action</a></li>
@@ -91,10 +91,10 @@
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white">NEWS</a>
+                <a class="nav-link text-white">News</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white">CONTACT US</a>
+                <a class="nav-link text-white">Contact Us</a>
               </li>
             </ul>
           </div>
@@ -105,13 +105,68 @@
 
     <!-- </div> -->
     <div
-      class="container-fluid d-flex justify-content-center p-0 bg-white mt-3 border-bottom"
+      class="container-fluid d-flex justify-content-center p-0 header-content border-bottom"
     >
-      <div class="container-fluid">
-        <p class="header-content h1 fw-bold text-center">
+    <div class="container m-5">
+      <div class="row cont">
+        <p class="header-content-title h1 fw-bold text-center">
           AGPlastics Manufacturing
         </p>
-        <p class="fw-400 text-center">Quality Plastic, Quality Service.</p>
+        <p class="fw-400 text-center">Quality Plastic, Quality Service. <b class="text-danger">(dook pls center i made this at like 5am and im losing my mind)</b></p>
+        <div class="col card m-3 about-card" style="width: 9rem;">
+          <div class="card-body">
+            <h5 class="card-title text-light text-center fw-bold">ABOUT US</h5>
+            <p class="card-text text-light text-center">Ensured plastic manufactured to perfection with our professional factory equipment.</p>
+            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+          </div>
+        </div>
+        <div class="col card m-3 about-card" style="width: 9rem;">
+          <div class="card-body">
+            <h5 class="card-title text-center text-light fw-bold">WHY AGPLASTICS?</h5>
+            <p class="card-text text-center text-light">Plastic designs focused specifically for your Agricultural needs.</p>
+            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <div
+    class="container-fluid d-flex justify-content-center p-0 header-content-red border-bottom"
+    >
+      <div class="container-fluid my-5">
+        <p class="header-content-title h1 fw-bold text-center">
+          WHAT WE OFFER
+        </p>
+        <p class="fw-400 text-center">AGPlastics offers a wide variety of products to fit all your plastic needs.</p>
+        <div class="container-fluid justify-content-center">
+          <div class="row">
+            <div class="col-lg card m-3" style="width: 18rem;">
+              <img class="card-img-top offer-img p-2 pt-4" src="assets/blue-opaque.jpeg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title text-dark text-center fw-bold">Quality Plastic</h5>
+                <p class="card-text text-dark text-center">Ensured plastic manufactured to perfection with our professional factory equipment.</p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
+            </div>
+            <div class="col-lg card m-3" style="width: 18rem;">
+              <img class="card-img-top offer-img p-2 pt-4" src="assets/agriculture.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title text-center text-dark fw-bold">Agriculture Specific</h5>
+                <p class="card-text text-center text-dark">Plastic designs focused specifically for your Agricultural needs.</p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
+            </div>
+            <div class="col-lg card m-3" style="width: 18rem;">
+              <img class="card-img-top offer-img p-2 pt-4" src="assets/commercial.jpeg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title text-center text-dark fw-bold">Commercial Focus</h5>
+                <p class="card-text text-center text-dark">Manufactures professionally designed plastic for your commercial needs.</p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -216,29 +271,37 @@
       </div>
 
       <div class="about-section-item">
-        <h2 class="border-bottom">Location Map</h2>
-        <div class="mapouter">
-          <div class="gmap_canvas">
-            <iframe
-              width="100%"
-              height="500"
-              id="gmap_canvas"
-              src="https://maps.google.com/maps?q=AGPlastics%20Manufacturing%20Corporation,%20Panabo,%20Davao%20del%20Norte,%20Philippines&t=&z=13&ie=UTF8&iwloc=&output=embed"
-              frameborder="0"
-              scrolling="no"
-              marginheight="0"
-              marginwidth="0"
-            >
-            </iframe>
+        <div class="row">
+          <div class="col-lg">
+            <h2 class="">Location Map</h2>
+            <p class="mx-3">AGPlastics' Factory can be found just south of Panabo City, Davao Del Norte near the lower coastline of the Philippines.</p>
+            <div class="mapouter">
+              <div class="gmap_canvas">
+                <iframe
+                  width="100%"
+                  height="500"
+                  id="gmap_canvas"
+                  src="https://maps.google.com/maps?q=AGPlastics%20Manufacturing%20Corporation,%20Panabo,%20Davao%20del%20Norte,%20Philippines&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                  frameborder="0"
+                  scrolling="no"
+                  marginheight="0"
+                  marginwidth="0"
+                >
+                </iframe>
+                
+                <style>
+                  .gmap_canvas {
+                    overflow: hidden;
+                    background: none !important;
+                    height: 100%;
+                    width: 100%;
+                  }
+                </style>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg">
             
-            <style>
-              .gmap_canvas {
-                overflow: hidden;
-                background: none !important;
-                height: 100%;
-                width: 100%;
-              }
-            </style>
           </div>
         </div>
       </div>

@@ -1,4 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
 .nav-custom {
+    font-family: 'Roboto', sans-serif;
+    background-color: #741E1E;
+}
+
+.nav-custom-2 {
     background-color: #741E1E;
 }
 
@@ -28,6 +39,16 @@
 }
 
 .header-content {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.header-content-red {
+    background-color: #741E1E;
+    color: WHITE;
+}
+
+.header-content-title {
     margin-top: 1rem;
 }
 
@@ -41,4 +62,17 @@
 
 #stickybar {
     transition: all ease-in 0.5s;
+}
+
+.offer-img {
+    /* offset against navbar */
+    object-fit: cover;
+    object-position: top;
+    height: 250px;
+}
+
+.about-card {
+    background-color: #741E1E;
+    color: WHITE;
+    max-width: 350px;
 }
