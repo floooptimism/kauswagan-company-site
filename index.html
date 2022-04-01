@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="style.css" />
 
     <script>
-      alert("Contact's section needs some styling for devices that has <=530 width. or we can just put it in the footer\n\ndevi: yeah just put it in footer or like its own section below\n\nkimchi: make the email/location/number portion smaller and make the navbar items a litle bit bigger");
+     alert("Contact's section needs some styling for devices that has <=530 width. or we can just put it in the footer\n\ndevi: yeah just put it in footer or like its own section below\n\nkimchi: make the email/location/number portion smaller and make the navbar items a litle bit bigger");
     </script>
   </head>
   <body>
@@ -247,42 +247,60 @@
       <!-- i updated the mockup, get rid of the projects section and follow the design i did in the draft -->
 
       <div class="container-fluid p-3">
-        <h3 class="fw-bold">RECENT NEWS</h3>
+        <h3 class="fw-bold text-center">RECENT NEWS</h3>
+        <!-- News grid -->
 
-        <div class="border-bottom">
-          <!-- image big af -->
-          <img src="./assets/project-image.jpeg" class="img-fluid" />
-          <h5 class="fw-bold my-2 mb-3">
-            Lorem ipsum dolor sit amet, consectetur adipscing
-          </h5>
-        </div>
+        <div class="row justify-content-center">
 
-        <div>
-          <!-- date  -->
-          <div class="border-bottom d-flex align-items-center py-3">
-            <svg
-              style="fill: #145da0"
-              class="me-2"
-              xmlns="http://www.w3.org/2000/svg"
-              width="35"
-              height="35"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M9 11H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2zm2-7h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11z"
-              />
-            </svg>
-            <h6 class="my-0">March 5, 1222</h6>
+          <div class="col-md news-card">
+            <div class="news-card-image-container ">
+              <img src="assets/cover.jpeg" alt="">
+              <div class="news-card-image-date d-flex align-items-center">
+                <svg class="me-2" width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M20.5882 1.52941V0H16.1765V1.52941H8.82353V0H4.41176V1.52941H0V24.4706H25V1.52941H20.5882ZM17.6471 1.52941H19.1176V4.58824H17.6471V1.52941ZM5.88235 1.52941H7.35294V4.58824H5.88235V1.52941ZM23.5294 22.9412H1.47059V9.29729H23.5294V22.9412ZM1.47059 7.76788V3.05882H4.41176V6.11765H8.82353V3.05882H16.1765V6.11765H20.5882V3.05882H23.5294V7.76788H1.47059Z" fill=""></path></svg>
+                March 13, 2022
+              </div>
+            </div>
+
+            <div class="news-card-info">
+              <h4 class="fw-bold">Title</h4>
+              <p>Description</p>
+              <button>Read more</button>
+            </div>
           </div>
-          <!-- some description with readmore func -->
-          <div>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Pellentesque sed ligula a nunc pulvinar...
-            </p>
+          <div class="col-md news-card">
+            <div class="news-card-image-container ">
+              <img src="assets/cover.jpeg" alt="">
+              <div class="news-card-image-date d-flex align-items-center">
+                <svg class="me-2" width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M20.5882 1.52941V0H16.1765V1.52941H8.82353V0H4.41176V1.52941H0V24.4706H25V1.52941H20.5882ZM17.6471 1.52941H19.1176V4.58824H17.6471V1.52941ZM5.88235 1.52941H7.35294V4.58824H5.88235V1.52941ZM23.5294 22.9412H1.47059V9.29729H23.5294V22.9412ZM1.47059 7.76788V3.05882H4.41176V6.11765H8.82353V3.05882H16.1765V6.11765H20.5882V3.05882H23.5294V7.76788H1.47059Z" fill=""></path></svg>
+                March 13, 2022
+              </div>
+            </div>
+            <div class="news-card-info">
+              <h4 class="fw-bold">Title</h4>
+              <p>Description</p>
+              <button>Read more</button>
+            </div>
           </div>
-          <!-- and a list of newwwws, navigatable by arrows -->
+          <div class="col-md news-card">
+            <div class="news-card-image-container ">
+              <img src="assets/cover.jpeg" alt="">
+              <div class="news-card-image-date d-flex align-items-center">
+                <svg class="me-2" width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M20.5882 1.52941V0H16.1765V1.52941H8.82353V0H4.41176V1.52941H0V24.4706H25V1.52941H20.5882ZM17.6471 1.52941H19.1176V4.58824H17.6471V1.52941ZM5.88235 1.52941H7.35294V4.58824H5.88235V1.52941ZM23.5294 22.9412H1.47059V9.29729H23.5294V22.9412ZM1.47059 7.76788V3.05882H4.41176V6.11765H8.82353V3.05882H16.1765V6.11765H20.5882V3.05882H23.5294V7.76788H1.47059Z" fill=""></path></svg>
+                March 13, 2022
+              </div>
+            </div>
+            <div class="news-card-info">
+              <h4 class="fw-bold">Title</h4>
+              <p>Description</p>
+              <button>Read more</button>
+            </div>
+          </div>
+
         </div>
+          
       </div>
     </div>
 

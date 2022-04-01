@@ -76,3 +76,29 @@ html{
     color: WHITE;
     max-width: 350px;
 }
+
+.news-card{
+  width: 400px;
+}
+
+.news-card-image-container {
+  position: relative;
+}
+
+.news-card-image-container img{
+  width: 100%;
+}
+
+.news-card-image-date {
+  padding: 6px;
+  border-radius: 3px;
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  background: #741E1E;
+  color: white;
+}
+
+.news-card-image-date svg{
+  fill: #fff;
+}
