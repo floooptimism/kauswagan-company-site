@@ -87,9 +87,11 @@ html{
 
 .news-card-image-container img{
   width: 100%;
+  border-radius: 5px;
 }
 
 .news-card-image-date {
+  font-size: 12px;
   padding: 6px;
   border-radius: 3px;
   position: absolute;
@@ -101,4 +103,15 @@ html{
 
 .news-card-image-date svg{
   fill: #fff;
+  width: 20px;
+  height: 20px;
+}
+
+.news-card-info {
+
+}
+
+.news-card-info a svg{
+  width: 18px;
+  height: 18px;
 }
