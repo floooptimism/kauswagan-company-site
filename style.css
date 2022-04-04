@@ -34,8 +34,10 @@ html{
 
 
 .about-section-logo{
-    height:200px;
-    background: lightgray;
+}
+
+.location {
+  border-bottom: 4px solid #741E1E;
 }
 
 .header-content {
