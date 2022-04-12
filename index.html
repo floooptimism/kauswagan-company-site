@@ -19,14 +19,14 @@
     <link rel="stylesheet" href="style.css" />
 
     <script>
-     alert("Contact's section needs some styling for devices that has <=530 width. or we can just put it in the footer\n\ndevi: yeah just put it in footer or like its own section below\n\nkimchi: make the email/location/number portion smaller and make the navbar items a litle bit bigger");
+    //  alert("Contact's section needs some styling for devices that has <=530 width. or we can just put it in the footer\n\ndevi: yeah just put it in footer or like its own section below\n\nkimchi: make the email/location/number portion smaller and make the navbar items a litle bit bigger");
     </script>
   </head>
   <body>
     <!-- navbar -->
-    <div class="container-fluid px-5 d-flex align-items-center py-3 nav-custom">
-      <ul class="d-flex flex-row list-inline text-light mb-0">
-        <li class="list-inline-item border-end border-white">
+    <div class="container-fluid px-5 d-flex flex-column nav-custom">
+      <ul class="d-flex flex-row list-inline text-light text-dark mb-0 py-2">
+        <li class="list-inline-item border-end border-dark">
           <i class="bi bi-telephone-fill"></i
           ><span class="px-2">+639(27)-1254-2421</span>
         </li>
@@ -39,6 +39,69 @@
           ><span class="px-2">nakasuyop.dimahimutang@gmail.com</span>
         </li>
       </ul>
+
+      <div class="nav-placeholder">
+        <nav
+          id="stickybar"
+          class="navbar navbar-light flex-column nav-custom nav-custom-2 navbar-expand-lg"
+        >
+          <div class="container-fluid px-5">
+            <a class="navbar-brand fw-bold" href="#">AGPlastics</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active text-decoration-underline"
+                    aria-current="page"
+                    href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle" 
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Products
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">News</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
     </div>
 
     <!-- hero bar -->
@@ -48,68 +111,7 @@
       src="assets/cover.jpeg"
       class="w-100 hero d-flex align-items-center justify-content-center"
     />
-    <div class="nav-placeholder">
-      <nav
-        id="stickybar"
-        class="navbar navbar-dark flex-column nav-custom nav-custom-2 navbar-expand-lg"
-      >
-        <div class="container-fluid px-5">
-          <a class="navbar-brand text-white fw-bold" href="#">AGPlastics</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a
-                  class="nav-link active text-white text-decoration-underline"
-                  aria-current="page"
-                  href="#"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#">About</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle text-white"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Products
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#">News</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#">Contact Us</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </div>
+   
 
     <!-- </div> -->
     <div

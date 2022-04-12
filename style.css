@@ -6,14 +6,15 @@ html{
 
 .nav-custom {
     font-family: 'Roboto', sans-serif;
-    background-color: #741E1E;
+
 }
 
 .nav-custom-2 {
-    background-color: #741E1E;
+    background-color: #fff;
 }
 
 .nav-placeholder {
+    width: 100%;
     height:56px;
 }
 
@@ -36,6 +37,7 @@ html{
 .about-section-logo{
 }
 
+
 .location {
   border-bottom: 4px solid #741E1E;
 }
@@ -47,7 +49,7 @@ html{
 
 .header-content-red {
     background-color: #741E1E;
-    color: WHITE;
+    c
 }
 
 .header-content-title {
@@ -116,4 +118,16 @@ html{
 .news-card-info a svg{
   width: 18px;
   height: 18px;
+}
+
+.bi-telephone-fill {
+  color: #646464;
+}
+
+.bi-envelope-fill {
+  color: #646464;
+}
+
+.bi-geo-alt-fill {
+  color: #646464;
 }
