@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+:root{
+  --brand-color: #741E1E;
+}
+
 html{
     font-family: 'Roboto', sans-serif;
 }
@@ -8,6 +12,31 @@ html{
     font-family: 'Roboto', sans-serif;
 
 }
+
+.qualities-section-info:first-of-type { 
+  background:#f7f7f7;
+}
+
+.qualities-section-info > div{
+}
+
+.qualities-section-info img {
+  object-fit:cover;
+  height: 100%;
+  width: 100%;
+  max-width: 500px;
+  max-height: 500px;
+  border-radius: 10px;
+}
+
+.qualities-section-info-text h1{
+  color: var(--brand-color);
+}
+
+.qualities-section-info-text p {
+  white-space: pre-wrap;
+}
+
 
 .nav-custom-2 {
     background-color: #fff;
@@ -20,10 +49,16 @@ html{
 
 .hero {
     /* offset against navbar */
-    object-fit: cover;
-    object-position: top;
     height: 450px;
-    background: pink;
+}
+
+.hero h1{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+
 }
 
 

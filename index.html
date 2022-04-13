@@ -19,13 +19,15 @@
     <link rel="stylesheet" href="style.css" />
 
     <script>
-    //  alert("Contact's section needs some styling for devices that has <=530 width. or we can just put it in the footer\n\ndevi: yeah just put it in footer or like its own section below\n\nkimchi: make the email/location/number portion smaller and make the navbar items a litle bit bigger");
+      //  alert("Contact's section needs some styling for devices that has <=530 width. or we can just put it in the footer\n\ndevi: yeah just put it in footer or like its own section below\n\nkimchi: make the email/location/number portion smaller and make the navbar items a litle bit bigger");
     </script>
   </head>
   <body>
     <!-- navbar -->
-    <div class="container-fluid px-5 d-flex flex-column nav-custom">
-      <ul class="d-flex flex-row list-inline text-light text-dark mb-0 py-2">
+    <div class="container-fluid px-0 d-flex flex-column nav-custom">
+      <ul
+        class="d-flex flex-row px-5 list-inline text-light text-dark mb-0 py-2"
+      >
         <li class="list-inline-item border-end border-dark">
           <i class="bi bi-telephone-fill"></i
           ><span class="px-2">+639(27)-1254-2421</span>
@@ -73,7 +75,7 @@
                 </li>
                 <li class="nav-item dropdown">
                   <a
-                    class="nav-link dropdown-toggle" 
+                    class="nav-link dropdown-toggle"
                     href="#"
                     id="navbarDropdown"
                     role="button"
@@ -84,7 +86,9 @@
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
                     <li><hr class="dropdown-divider" /></li>
                     <li>
                       <a class="dropdown-item" href="#">Something else here</a>
@@ -105,16 +109,18 @@
     </div>
 
     <!-- hero bar -->
-    <!-- <div class="container-fluid hero d-flex align-items-center justify-content-center"> -->
-    <img
-      id="cover-image"
-      src="assets/cover.jpeg"
-      class="w-100 hero d-flex align-items-center justify-content-center"
-    />
-   
-
-    <!-- </div> -->
     <div
+      class="container-fluid px-0 mt-2 d-flex justify-content-center align-items-center hero d-relative"
+    >
+      <img
+        id="cover-image"
+        src="assets/cover.jpeg"
+        class="w-100 hero d-flex align-items-center justify-content-center"
+      />
+      <h1>GOOD QUALITY PLASTICS</h1>
+    </div>
+
+    <!-- <div
       class="container-fluid d-flex justify-content-center p-0 header-content border-bottom"
     >
       <div class="container m-5">
@@ -122,9 +128,7 @@
           <p class="header-content-title h1 fw-bold text-center">
             AGPlastics Manufacturing
           </p>
-          <p class="fw-400 text-center">
-            Quality Plastic, Quality Service.
-          </p>
+          <p class="fw-400 text-center">Quality Plastic, Quality Service.</p>
         </div>
         <div class="row cont justify-content-center">
           <div class="col-md card m-3 about-card">
@@ -136,7 +140,6 @@
                 Ensured plastic manufactured to perfection with our professional
                 factory equipment.
               </p>
-              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
             </div>
           </div>
           <div class="col-md card m-3 about-card">
@@ -148,14 +151,13 @@
                 Plastic designs focused specifically for your Agricultural
                 needs.
               </p>
-              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
-    <div
+    <!-- <div
       class="container-fluid d-flex justify-content-center p-0 header-content-red border-bottom"
     >
       <div class="container-fluid my-5">
@@ -180,7 +182,6 @@
                   Ensured plastic manufactured to perfection with our
                   professional factory equipment.
                 </p>
-                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
               </div>
             </div>
             <div class="col-lg card m-3" style="width: 18rem">
@@ -197,7 +198,6 @@
                   Plastic designs focused specifically for your Agricultural
                   needs.
                 </p>
-                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
               </div>
             </div>
             <div class="col-lg card m-3" style="width: 18rem">
@@ -214,155 +214,180 @@
                   Manufactures professionally designed plastic for your
                   commercial needs.
                 </p>
-                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
-    <!-- projects and recent news -->
-    <div
+    <!-- <div
       class="projects-news container-fluid d-flex justify-content-center p-0 mt-5 bg-white"
     >
-      <!-- <div class="container-fluid p-3">
-        <h3 class="fw-bold">PROJECTS</h3>
-        <p>
-          AGPlastics Company have initiated, lead, and developed numerous
-          projects. Found below are previews of some.
-        </p>
-        <img src="./assets/project-image.jpeg" class="img-fluid" />
-        <div class="row py-3">
-          <div class="col-lg">
-            <img src="assets/project-image.jpeg" class="img-fluid" />
-          </div>
-          <div class="col-lg">
-            <img src="assets/project-image.jpeg" class="img-fluid" />
-          </div>
-          <div class="col-lg">
-            <img src="assets/project-image.jpeg" class="img-fluid" />
-          </div>
-        </div>
-      </div> -->
 
-      <!-- i updated the mockup, get rid of the projects section and follow the design i did in the draft -->
 
       <div class="container-fluid p-3">
         <h3 class="fw-bold text-center">RECENT NEWS</h3>
-        <!-- News grid -->
 
         <div class="row justify-content-center">
-
           <div class="col-md news-card">
-            <div class="news-card-image-container ">
-              <img src="assets/cover.jpeg" alt="">
+            <div class="news-card-image-container">
+              <img src="assets/cover.jpeg" alt="" />
               <div class="news-card-image-date d-flex align-items-center">
-                <svg class="me-2" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M20.5882 1.52941V0H16.1765V1.52941H8.82353V0H4.41176V1.52941H0V24.4706H25V1.52941H20.5882ZM17.6471 1.52941H19.1176V4.58824H17.6471V1.52941ZM5.88235 1.52941H7.35294V4.58824H5.88235V1.52941ZM23.5294 22.9412H1.47059V9.29729H23.5294V22.9412ZM1.47059 7.76788V3.05882H4.41176V6.11765H8.82353V3.05882H16.1765V6.11765H20.5882V3.05882H23.5294V7.76788H1.47059Z" fill=""></path></svg>
+                <svg
+                  class="me-2"
+                  viewBox="0 0 25 25"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M20.5882 1.52941V0H16.1765V1.52941H8.82353V0H4.41176V1.52941H0V24.4706H25V1.52941H20.5882ZM17.6471 1.52941H19.1176V4.58824H17.6471V1.52941ZM5.88235 1.52941H7.35294V4.58824H5.88235V1.52941ZM23.5294 22.9412H1.47059V9.29729H23.5294V22.9412ZM1.47059 7.76788V3.05882H4.41176V6.11765H8.82353V3.05882H16.1765V6.11765H20.5882V3.05882H23.5294V7.76788H1.47059Z"
+                    fill=""
+                  ></path>
+                </svg>
                 March 13, 2022
               </div>
             </div>
 
             <div class="news-card-info">
               <h4 class="fw-bold">Title</h4>
-              <p class="news-card-info-description fs-6 text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sed ligula a nunc pulvinar. Morbi in nisi quam. Ut interdum elit elit, sit amet pulvinar metus rhoncus ac... 
+              <p class="news-card-info-description fs-6 text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Pellentesque sed ligula a nunc pulvinar. Morbi in nisi quam. Ut
+                interdum elit elit, sit amet pulvinar metus rhoncus ac...
               </p>
               <a>
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M23.6211 13.1773L15.7579 23.5043C15.5053 23.8348 15.1895 24 14.8737 24C14.5579 24 14.2421 23.8348 13.9895 23.5043C13.4842 22.8434 13.4842 21.8107 13.9895 21.1497L19.7053 13.673H1.26316C0.568421 13.673 0 12.9294 0 12.0207C0 11.1119 0.568421 10.3683 1.26316 10.3683H19.7053L13.9579 2.85026C13.4526 2.18933 13.4526 1.15663 13.9579 0.495697C14.4632 -0.165232 15.2526 -0.165232 15.7579 0.495697L23.6211 10.8227C24.1263 11.4836 24.1263 12.5577 23.6211 13.1773Z" fill="#741E1E"/>
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M23.6211 13.1773L15.7579 23.5043C15.5053 23.8348 15.1895 24 14.8737 24C14.5579 24 14.2421 23.8348 13.9895 23.5043C13.4842 22.8434 13.4842 21.8107 13.9895 21.1497L19.7053 13.673H1.26316C0.568421 13.673 0 12.9294 0 12.0207C0 11.1119 0.568421 10.3683 1.26316 10.3683H19.7053L13.9579 2.85026C13.4526 2.18933 13.4526 1.15663 13.9579 0.495697C14.4632 -0.165232 15.2526 -0.165232 15.7579 0.495697L23.6211 10.8227C24.1263 11.4836 24.1263 12.5577 23.6211 13.1773Z"
+                    fill="#741E1E"
+                  />
                 </svg>
               </a>
             </div>
           </div>
           <div class="col-md news-card">
-            <div class="news-card-image-container ">
-              <img src="assets/cover.jpeg" alt="">
+            <div class="news-card-image-container">
+              <img src="assets/cover.jpeg" alt="" />
               <div class="news-card-image-date d-flex align-items-center">
-                <svg class="me-2" width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M20.5882 1.52941V0H16.1765V1.52941H8.82353V0H4.41176V1.52941H0V24.4706H25V1.52941H20.5882ZM17.6471 1.52941H19.1176V4.58824H17.6471V1.52941ZM5.88235 1.52941H7.35294V4.58824H5.88235V1.52941ZM23.5294 22.9412H1.47059V9.29729H23.5294V22.9412ZM1.47059 7.76788V3.05882H4.41176V6.11765H8.82353V3.05882H16.1765V6.11765H20.5882V3.05882H23.5294V7.76788H1.47059Z" fill=""></path></svg>
+                <svg
+                  class="me-2"
+                  width="25"
+                  height="25"
+                  viewBox="0 0 25 25"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M20.5882 1.52941V0H16.1765V1.52941H8.82353V0H4.41176V1.52941H0V24.4706H25V1.52941H20.5882ZM17.6471 1.52941H19.1176V4.58824H17.6471V1.52941ZM5.88235 1.52941H7.35294V4.58824H5.88235V1.52941ZM23.5294 22.9412H1.47059V9.29729H23.5294V22.9412ZM1.47059 7.76788V3.05882H4.41176V6.11765H8.82353V3.05882H16.1765V6.11765H20.5882V3.05882H23.5294V7.76788H1.47059Z"
+                    fill=""
+                  ></path>
+                </svg>
                 March 13, 2022
               </div>
             </div>
             <div class="news-card-info">
               <h4 class="fw-bold">Title</h4>
-              <p class="news-card-info-description fs-6 text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sed ligula a nunc pulvinar. Morbi in nisi quam. Ut interdum elit elit, sit amet pulvinar metus rhoncus ac... 
+              <p class="news-card-info-description fs-6 text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Pellentesque sed ligula a nunc pulvinar. Morbi in nisi quam. Ut
+                interdum elit elit, sit amet pulvinar metus rhoncus ac...
               </p>
               <a>
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M23.6211 13.1773L15.7579 23.5043C15.5053 23.8348 15.1895 24 14.8737 24C14.5579 24 14.2421 23.8348 13.9895 23.5043C13.4842 22.8434 13.4842 21.8107 13.9895 21.1497L19.7053 13.673H1.26316C0.568421 13.673 0 12.9294 0 12.0207C0 11.1119 0.568421 10.3683 1.26316 10.3683H19.7053L13.9579 2.85026C13.4526 2.18933 13.4526 1.15663 13.9579 0.495697C14.4632 -0.165232 15.2526 -0.165232 15.7579 0.495697L23.6211 10.8227C24.1263 11.4836 24.1263 12.5577 23.6211 13.1773Z" fill="#741E1E"/>
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M23.6211 13.1773L15.7579 23.5043C15.5053 23.8348 15.1895 24 14.8737 24C14.5579 24 14.2421 23.8348 13.9895 23.5043C13.4842 22.8434 13.4842 21.8107 13.9895 21.1497L19.7053 13.673H1.26316C0.568421 13.673 0 12.9294 0 12.0207C0 11.1119 0.568421 10.3683 1.26316 10.3683H19.7053L13.9579 2.85026C13.4526 2.18933 13.4526 1.15663 13.9579 0.495697C14.4632 -0.165232 15.2526 -0.165232 15.7579 0.495697L23.6211 10.8227C24.1263 11.4836 24.1263 12.5577 23.6211 13.1773Z"
+                    fill="#741E1E"
+                  />
                 </svg>
               </a>
             </div>
           </div>
           <div class="col-md news-card">
-            <div class="news-card-image-container ">
-              <img src="assets/cover.jpeg" alt="">
+            <div class="news-card-image-container">
+              <img src="assets/cover.jpeg" alt="" />
               <div class="news-card-image-date d-flex align-items-center">
-                <svg class="me-2" width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M20.5882 1.52941V0H16.1765V1.52941H8.82353V0H4.41176V1.52941H0V24.4706H25V1.52941H20.5882ZM17.6471 1.52941H19.1176V4.58824H17.6471V1.52941ZM5.88235 1.52941H7.35294V4.58824H5.88235V1.52941ZM23.5294 22.9412H1.47059V9.29729H23.5294V22.9412ZM1.47059 7.76788V3.05882H4.41176V6.11765H8.82353V3.05882H16.1765V6.11765H20.5882V3.05882H23.5294V7.76788H1.47059Z" fill=""></path></svg>
+                <svg
+                  class="me-2"
+                  width="25"
+                  height="25"
+                  viewBox="0 0 25 25"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M20.5882 1.52941V0H16.1765V1.52941H8.82353V0H4.41176V1.52941H0V24.4706H25V1.52941H20.5882ZM17.6471 1.52941H19.1176V4.58824H17.6471V1.52941ZM5.88235 1.52941H7.35294V4.58824H5.88235V1.52941ZM23.5294 22.9412H1.47059V9.29729H23.5294V22.9412ZM1.47059 7.76788V3.05882H4.41176V6.11765H8.82353V3.05882H16.1765V6.11765H20.5882V3.05882H23.5294V7.76788H1.47059Z"
+                    fill=""
+                  ></path>
+                </svg>
                 March 13, 2022
               </div>
             </div>
             <div class="news-card-info">
               <h4 class="fw-bold news-card-info-title">Title</h4>
-              <p class="news-card-info-description fs-6 text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sed ligula a nunc pulvinar. Morbi in nisi quam. Ut interdum elit elit, sit amet pulvinar metus rhoncus ac... 
+              <p class="news-card-info-description fs-6 text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Pellentesque sed ligula a nunc pulvinar. Morbi in nisi quam. Ut
+                interdum elit elit, sit amet pulvinar metus rhoncus ac...
               </p>
               <a>
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M23.6211 13.1773L15.7579 23.5043C15.5053 23.8348 15.1895 24 14.8737 24C14.5579 24 14.2421 23.8348 13.9895 23.5043C13.4842 22.8434 13.4842 21.8107 13.9895 21.1497L19.7053 13.673H1.26316C0.568421 13.673 0 12.9294 0 12.0207C0 11.1119 0.568421 10.3683 1.26316 10.3683H19.7053L13.9579 2.85026C13.4526 2.18933 13.4526 1.15663 13.9579 0.495697C14.4632 -0.165232 15.2526 -0.165232 15.7579 0.495697L23.6211 10.8227C24.1263 11.4836 24.1263 12.5577 23.6211 13.1773Z" fill="#741E1E"/>
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M23.6211 13.1773L15.7579 23.5043C15.5053 23.8348 15.1895 24 14.8737 24C14.5579 24 14.2421 23.8348 13.9895 23.5043C13.4842 22.8434 13.4842 21.8107 13.9895 21.1497L19.7053 13.673H1.26316C0.568421 13.673 0 12.9294 0 12.0207C0 11.1119 0.568421 10.3683 1.26316 10.3683H19.7053L13.9579 2.85026C13.4526 2.18933 13.4526 1.15663 13.9579 0.495697C14.4632 -0.165232 15.2526 -0.165232 15.7579 0.495697L23.6211 10.8227C24.1263 11.4836 24.1263 12.5577 23.6211 13.1773Z"
+                    fill="#741E1E"
+                  />
                 </svg>
               </a>
             </div>
           </div>
-
         </div>
-          
       </div>
-    </div>
+    </div> -->
 
     <!-- company about section container-->
-    <div class="container-fluid border-top mt-5 pt-3 px-5">
-      <!-- company logo and some images -->
-      <!-- expand these a little bit, make them bigger, there should also be a horizontal line that divides the news and about section -kimchi -->
-      <div class="about-section-logo row text-center">
-        <div class="col d-none d-md-block"></div>
-        <div class="col">
-          <img height="200" width="200" src="/assets/kauswagan-logo.png" alt="Logo">
-          <h1>AGPLASTICS</h1>
+    <div class="container-fluid mt-5 pt-3 px-0">
+      <div class="qualities-section-info d-flex flex-column flex-lg-row px-5 py-5">
+        <div class="w-100 mb-5 mb-lg-0 me-lg-5 d-flex justify-content-center align-items-center">
+          <img src="assets/cover.jpeg"/>
         </div>
-        <div class="col d-none d-md-block"></div>
+        <div class="w-100 px-lg-5 qualities-section-info-text d-flex flex-column align-items-center">
+          <h1 class="mb-4">About the Company</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec posuere consequat mauris in molestie. Praesent tortor lorem, auctor ut elit et, elementum commodo velit. Vestibulum scelerisque, sapien id efficitur venenatis, lorem enim condimentum risus, ac convallis massa urna non lorem. In accumsan magna non convallis hendrerit.
+
+            Morbi in nisi quam. Ut interdum elit elit, sit amet pulvinar metus rhoncus ac. Cras eu aliquet purus. Aliquam accumsan libero velit, nec placerat nisi scelerisque sit amet. Mauris euismod in velit ac luctus. Pellentesque varius est eget dictum auctor. Morbi porta maximus ornare. Aliquam vestibulum nisi lacinia erat maximus aliquam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam id sem at leo rhoncus lobortis. Etiam auctor, justo ac pellentesque vulputate, mauris mi accumsan dui, vel consectetur lorem ex id massa.</p>
+        </div>
       </div>
 
-      <!-- about the company section -->
-      <div class="about-section-item">
-        <h2>About the Company</h2>
-        <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec posuere consequat mauris in molestie. Praesent tortor lorem, auctor ut elit et, elementum commodo velit. Vestibulum scelerisque, sapien id efficitur venenatis, lorem enim condimentum risus, ac convallis massa urna non lorem. In accumsan magna non convallis hendrerit.
+      <div class="qualities-section-info d-flex flex-column flex-lg-row-reverse px-5 py-5">
+        <div class="w-100 mb-5 mb-lg-0 me-lg-5 d-flex justify-content-center align-items-center">
+          <img src="assets/cover.jpeg"/>
+        </div>
+        <div class="w-100 px-lg-5 qualities-section-info-text d-flex flex-column align-items-center">
+          <h1 class="mb-4">Good Quality Plastics</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec posuere consequat mauris in molestie. Praesent tortor lorem, auctor ut elit et, elementum commodo velit. Vestibulum scelerisque, sapien id efficitur venenatis, lorem enim condimentum risus, ac convallis massa urna non lorem. In accumsan magna non convallis hendrerit.
 
-        Morbi in nisi quam. Ut interdum elit elit, sit amet pulvinar metus rhoncus ac. Cras eu aliquet purus. Aliquam accumsan libero velit, nec placerat nisi scelerisque sit amet. Mauris euismod in velit ac luctus. Pellentesque varius est eget dictum auctor. Morbi porta maximus ornare. Aliquam vestibulum nisi lacinia erat maximus aliquam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam id sem at leo rhoncus lobortis. Etiam auctor, justo ac pellentesque vulputate, mauris mi accumsan dui, vel consectetur lorem ex id massa.
-        </p>
+            Morbi in nisi quam. Ut interdum elit elit, sit amet pulvinar metus rhoncus ac. Cras eu aliquet purus. Aliquam accumsan libero velit, nec placerat nisi scelerisque sit amet. Mauris euismod in velit ac luctus. Pellentesque varius est eget dictum auctor. Morbi porta maximus ornare. Aliquam vestibulum nisi lacinia erat maximus aliquam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam id sem at leo rhoncus lobortis. Etiam auctor, justo ac pellentesque vulputate, mauris mi accumsan dui, vel consectetur lorem ex id massa.</p>
+        </div>
       </div>
 
-      <!-- another paragrpah and section -->
-      <div class="about-section-item">
-        <h2>Text here</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec posuere consequat mauris in molestie. Praesent tortor lorem, auctor ut elit et, elementum commodo velit. Vestibulum scelerisque, sapien id efficitur venenatis, lorem enim condimentum risus, ac convallis massa urna non lorem. In accumsan magna non convallis hendrerit.
-
-          Morbi in nisi quam. Ut interdum elit elit, sit amet pulvinar metus rhoncus ac. Cras eu aliquet purus. Aliquam accumsan libero velit, nec placerat nisi scelerisque sit amet. Mauris euismod in velit ac luctus. Pellentesque varius est eget dictum auctor. Morbi porta maximus ornare. Aliquam vestibulum nisi lacinia erat maximus aliquam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam id sem at leo rhoncus lobortis. Etiam auctor, justo ac pellentesque vulputate, mauris mi accumsan dui, vel consectetur lorem ex id massa.
-        </p>
-      </div>
-
-      <!-- another paragrpah and section -->
-      <div class="about-section-item">
-        <h2>another text here</h2>
-        <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec posuere consequat mauris in molestie. Praesent tortor lorem, auctor ut elit et, elementum commodo velit. Vestibulum scelerisque, sapien id efficitur venenatis, lorem enim condimentum risus, ac convallis massa urna non lorem. In accumsan magna non convallis hendrerit.
-
-        Morbi in nisi quam. Ut interdum elit elit, sit amet pulvinar metus rhoncus ac. Cras eu aliquet purus. Aliquam accumsan libero velit, nec placerat nisi scelerisque sit amet. Mauris euismod in velit ac luctus. Pellentesque varius est eget dictum auctor. Morbi porta maximus ornare. Aliquam vestibulum nisi lacinia erat maximus aliquam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam id sem at leo rhoncus lobortis. Etiam auctor, justo ac pellentesque vulputate, mauris mi accumsan dui, vel consectetur lorem ex id massa.
-        </p>
-      </div>
 
       <div class="about-section-item">
         <div class="row">
@@ -379,7 +404,7 @@
                   height="500"
                   id="gmap_canvas"
                   src="https://maps.google.com/maps?q=AGPlastics%20Manufacturing%20Corporation,%20Panabo,%20Davao%20del%20Norte,%20Philippines&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                  frameborder="0"
+                  frameborder="0" 
                   scrolling="no"
                   marginheight="0"
                   marginwidth="0"
