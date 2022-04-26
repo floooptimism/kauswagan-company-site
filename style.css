@@ -8,10 +8,23 @@ html{
     font-family: 'Roboto', sans-serif;
 }
 
+.products-list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.products-list-header {
+    border-bottom: 1px solid #145DA0;
+    display:  inline-block;
+}
+
 .nav-custom {
     font-family: 'Roboto', sans-serif;
 
 }
+
+
 
 .qualities-section-info:first-of-type { 
   background:#f7f7f7;
