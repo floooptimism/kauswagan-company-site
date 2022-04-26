@@ -19,6 +19,31 @@ html{
     display:  inline-block;
 }
 
+.products-list-grid { 
+    display: grid;
+    grid-template-columns: minmax(320px, 1fr) minmax(320px, 1fr);
+    grid-gap: 20px;
+    align-content: center;
+    justify-content: center;
+    margin-top: 20px;
+    /* width: 100%; */
+}
+
+/* media query for mobile devices */
+@media screen and (max-width: 600px) {
+    .products-list-grid {
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    }
+}
+
+.product {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 400px;
+  height: 250px;
+  background: gray;
+}
+
 .nav-custom {
     font-family: 'Roboto', sans-serif;
 
